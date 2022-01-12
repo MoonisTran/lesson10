@@ -3,7 +3,7 @@ let person = {
     name:       'Bob',
     occupation: 'web developer',
     hobbies:    'painting',
-  };
+};
 person.name;
 person.occupation;
 person['name'];
@@ -19,8 +19,8 @@ let obj = {
 let objKey = Object.keys(obj);
 for (let i in objKey) {
     objKey[i]=objKey[i].toUpperCase()
-};
-console.log(objKey);
+}
+console.log(objKey)
 
 //hw3
 let myFamily = {
