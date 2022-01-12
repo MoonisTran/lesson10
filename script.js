@@ -28,7 +28,7 @@ let myFamily = {
     member: ["Dad", "Mom", "Me", "Daughter"],
     location: "Vietnam",
 };
-let family = Object.create(myFamily);
+let family =Object.entries(myFamily);
 console.log(family);
 
 //hw4
